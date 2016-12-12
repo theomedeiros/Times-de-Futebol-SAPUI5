@@ -121,6 +121,16 @@
 						"master",
 						"object"
 					]
+				},
+				{
+					"name": "createTransaction",
+					"pattern": "Times/{Id}/NovaTransacao",
+					"titleTarget": "",
+					"greedy": false,
+					"target": [
+						"object",
+						"createTransaction"
+					]
 				}
 			],
 			"targets": {
@@ -150,6 +160,15 @@
 				"notFound": {
 					"viewName": "NotFound",
 					"viewId": "notFound"
+				},
+				"createTransaction": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "CreateTransaction",
+					"viewLevel": 3,
+					"viewId": "createTransaction",
+					"controlAggregation": "detailPages"
 				}
 			}
 		}

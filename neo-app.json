@@ -19,6 +19,24 @@
       "description": "SAPUI5 Test Resources"
     },
     {
+      "path": "/webapp/parent",
+      "target": {
+        "type": "application",
+        "preferLocal": true,
+        "name": "ztransacoes"
+      },
+      "description": "Original Application"
+    },
+    {
+      "path": "/dist/parent",
+      "target": {
+        "type": "application",
+        "preferLocal": true,
+        "name": "ztransacoes"
+      },
+      "description": "Original Application"
+    },
+    {
       "path": "/resources",
       "target": {
         "type": "service",

@@ -121,7 +121,21 @@
 						id="iconTabBarFilter2" 
 						icon="sap-icon://visits" 
 						tooltip="{i18n>detailIconTabBarTransferencias}"
-						/>
+						>
+						<content>
+							<HBox
+								justifyContent="Center"
+								>
+								<items>
+									<Button
+										text="Realizar transação"
+										press="onTransacao"
+										>
+									</Button>
+								</items>
+							</HBox>
+						</content>
+					</IconTabFilter>
 				</items>
 			</IconTabBar>
 		</semantic:content>

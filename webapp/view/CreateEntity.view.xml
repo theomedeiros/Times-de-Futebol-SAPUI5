@@ -29,7 +29,7 @@
 				layout="ResponsiveGridLayout" 
 				maxContainerCols="2"
 				minWidth="1024"
-				title="{= ${viewModel>/mode} === 'edit'? 'Edit S1.Time': 'New S1.Time'}"
+				title="{= ${viewModel>/mode} === 'edit'? 'Editar Time': 'Novo Time'}"
 				>
 				<f:content>
 					<Label 

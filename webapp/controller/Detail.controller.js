@@ -22,7 +22,7 @@ sap.ui.define([
 				delay: 0,
 				lineItemListTitle: this.getResourceBundle().getText("detailLineItemTableHeading")
 			});
-			
+
 			// Anexa os métodos que serão executados no hit do Router
 			this.getRouter().getRoute("object").attachPatternMatched(this._onObjectMatched, this);
 			//Instancia um modelo JSON com propriedades necessárias para a visão Detail
@@ -246,6 +246,14 @@ sap.ui.define([
 			}.bind(this));
 			oPromise.then(fnSuccess, fnFailed);
 			return oPromise;
+		},
+
+		onTransacao: function(oEvent) {
+			
+			this.getRouter().navTo("createTransaction", {
+				Id: this.getView().getBindingContext().getObject().Id
+			});
+			
 		}
 
 	});
