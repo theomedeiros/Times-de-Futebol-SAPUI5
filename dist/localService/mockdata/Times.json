@@ -1,0 +1,161 @@
+[{
+	"Id": "1",
+	"Logo": "sao-paulo",
+	"Nome": "São Paulo",
+	"NomeCompleto": "São Paulo Futebol Clube",
+	"AnoFundacao": 1930,
+	"Estado": "SP",
+	"__metadata": {
+		"uri": "Times('1')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('1')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "2",
+	"Logo": "corinthians",
+	"Nome": "Corinthians",
+	"NomeCompleto": "Sport Club Corinthians Paulista",
+	"AnoFundacao": 1910,
+	"Estado": "SP",
+	"__metadata": {
+		"uri": "Times('2')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('2')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "3",
+	"Logo": "palmeiras",
+	"Nome": "Palmeiras",
+	"NomeCompleto": "Sociedade Esportiva Palmeiras",
+	"AnoFundacao": 1914,
+	"Estado": "SP",
+	"__metadata": {
+		"uri": "Times('3')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('3')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "4",
+	"Logo": "santos",
+	"Nome": "Santos",
+	"NomeCompleto": "Santos Futebol Clube",
+	"AnoFundacao": 1912,
+	"Estado": "SP",
+	"__metadata": {
+		"uri": "Times('4')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('4')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "5",
+	"Logo": "inter",
+	"Nome": "Internacional",
+	"NomeCompleto": "Sport Club Internacional",
+	"AnoFundacao": 1909,
+	"Estado": "RS",
+	"__metadata": {
+		"uri": "Times('5')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('5')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "6",
+	"Logo": "gremio",
+	"Nome": "Grêmio",
+	"NomeCompleto": "Grêmio Foot-Ball Porto Alegrense",
+	"AnoFundacao": 1903,
+	"Estado": "RS",
+	"__metadata": {
+		"uri": "Times('6')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('6')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "7",
+	"Logo": "flamengo",
+	"Nome": "Flamengo",
+	"NomeCompleto": "Clube de Regatas do Flamengo",
+	"AnoFundacao": 1895,
+	"Estado": "RJ",
+	"__metadata": {
+		"uri": "Times('7')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('7')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "8",
+	"Logo": "botafogo",
+	"Nome": "Botafogo",
+	"NomeCompleto": "Botafogo de Futebol e Regatas",
+	"AnoFundacao": 1942,
+	"Estado": "RJ",
+	"__metadata": {
+		"uri": "Times('8')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('8')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "9",
+	"Logo": "atleti-mineiro",
+	"Nome": "Atlético Mineiro",
+	"NomeCompleto": "Clube Atlético Mineiro",
+	"AnoFundacao": 1908,
+	"Estado": "MG",
+	"__metadata": {
+		"uri": "Times('9')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('9')/ToJogadores"
+		}
+	}
+}, {
+	"Id": "10",
+	"Logo": "cruzeiro",
+	"Nome": "Cruzeiro",
+	"NomeCompleto": "Cruzeiro Esporte Clube",
+	"AnoFundacao": 1921,
+	"Estado": "MG",
+	"__metadata": {
+		"uri": "Times('10')",
+		"type": "S1.Time"
+	},
+	"ToJogadores": {
+		"__deferred": {
+			"uri": "Times('10')/ToJogadores"
+		}
+	}
+}]

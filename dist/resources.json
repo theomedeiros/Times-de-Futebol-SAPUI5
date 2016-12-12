@@ -1,0 +1,132 @@
+{
+    "resources": [
+        {
+            "name": "view/DetailObjectNotFound.view.xml"
+        },
+        {
+            "name": "view/Master.view.xml"
+        },
+        {
+            "name": "view/DetailNoObjectsAvailable.view.xml"
+        },
+        {
+            "name": "view/NotFound.view.xml"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/Detail.view.xml"
+        },
+        {
+            "name": "view/CreateEntity.view.xml"
+        },
+        {
+            "name": "view/CreateTransaction.view.xml"
+        },
+        {
+            "name": "view/ViewSettingsDialog.fragment.xml"
+        },
+        {
+            "name": "controller/Detail.controller.js"
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/ErrorHandler.js"
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "controller/Master.controller.js"
+        },
+        {
+            "name": "controller/CreateTransaction.controller.js"
+        },
+        {
+            "name": "controller/CreateEntity.controller.js"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "fioriHtmlRunner.html"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "model/formatter.js"
+        },
+        {
+            "name": "model/M_Times.edmx"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/GroupSortState.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "img/palmeiras.png"
+        },
+        {
+            "name": "img/corinthians.png"
+        },
+        {
+            "name": "img/sao-paulo.png"
+        },
+        {
+            "name": "img/atleti-mineiro.png"
+        },
+        {
+            "name": "img/santos.png"
+        },
+        {
+            "name": "img/gremio.png"
+        },
+        {
+            "name": "img/flamengo.png"
+        },
+        {
+            "name": "img/inter.png"
+        },
+        {
+            "name": "img/cruzeiro.png"
+        },
+        {
+            "name": "img/botafogo.png"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "localService/metadata.xml"
+        },
+        {
+            "name": "localService/mockdata/Times.json"
+        },
+        {
+            "name": "localService/mockdata/Jogadores.json"
+        },
+        {
+            "name": "localService/mockserver.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

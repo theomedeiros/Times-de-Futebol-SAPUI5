@@ -1,0 +1,521 @@
+[{
+	"IdJogador": "IdJogador 1",
+	"IdTime": "1",
+	"Nome": "Maicon",
+	"NomeCompleto": "Maicon Pereira Roque",
+	"Posição": "Zagueiro",
+	"Altura": "1,91",
+	"__metadata": {
+		"uri": "Jogadores('01')",
+		"type": "S1.Jogador"
+	},
+	"DataNasc": "/Date(590209200000)/",
+	"Nacionalidade": "Brasileiro"
+}, {
+	"IdJogador": "IdJogador 2",
+	"IdTime": "1",
+	"Nome": "Cueva",
+	"NomeCompleto": "Christian Alberto Cueva Bravo",
+	"Posição": "Meia",
+	"Altura": "1,69",
+	"__metadata": {
+		"uri": "Jogadores('02')",
+		"type": "S1.Jogador"
+	},
+	"DataNasc": "/Date(690861600000)/",
+	"Nacionalidade": "Peruano"
+}, {
+	"IdJogador": "IdJogador 3",
+	"IdTime": "1",
+	"Nome": "Diego Lugano",
+	"NomeCompleto": "Diego Alfredo Lugano Moreno",
+	"Posição": "Zagueiro",
+	"Altura": "1,88",
+	"__metadata": {
+		"uri": "Jogadores('03')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Uruguaio",
+	"DataNasc": "/Date(689047200000)/"
+}, {
+	"IdJogador": "IdJogador 4",
+	"IdTime": "1",
+	"Nome": "Rodrigo Caio",
+	"NomeCompleto": "Rodrigo Caio Coquette Russo",
+	"Posição": "Zagueiro",
+	"Altura": "1,82",
+	"__metadata": {
+		"uri": "Jogadores('04')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(745556400000)/"
+}, {
+	"IdJogador": "IdJogador 5",
+	"IdTime": "2",
+	"Nome": "Cássio",
+	"NomeCompleto": "Cássio Ramos",
+	"Posição": "Goleiro",
+	"Altura": "1,96",
+	"__metadata": {
+		"uri": "Jogadores('05')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(549946800000)/"
+}, {
+	"IdJogador": "IdJogador 6",
+	"IdTime": "2",
+	"Nome": "Fagner",
+	"NomeCompleto": "Fagner Conserva Lemos",
+	"Posição": "Lateral",
+	"Altura": "1,68",
+	"__metadata": {
+		"uri": "Jogadores('06')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(613537200000)/"
+}, {
+	"IdJogador": "IdJogador 7",
+	"IdTime": "2",
+	"Nome": "Marquinhos Gabriel",
+	"NomeCompleto": "Marcos Gabriel do Nascimento",
+	"Posição": "Meia",
+	"Altura": "1,74",
+	"__metadata": {
+		"uri": "Jogadores('07')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(774759600000)/"
+}, {
+	"IdJogador": "IdJogador 8",
+	"IdTime": "2",
+	"Nome": "Marlone",
+	"NomeCompleto": "Jonathan Marlone Azevedo da Silva",
+	"Posição": "Meia",
+	"Altura": "1,8",
+	"__metadata": {
+		"uri": "Jogadores('08')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(702183600000)/"
+}, {
+	"IdJogador": "IdJogador 9",
+	"IdTime": "3",
+	"Nome": "Dudu",
+	"NomeCompleto": "Eduardo Pereira Rodrigues",
+	"Posição": "Atacante",
+	"Altura": "1,67",
+	"__metadata": {
+		"uri": "Jogadores('09')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(694749600000)/"
+}, {
+	"IdJogador": "IdJogador 10",
+	"IdTime": "3",
+	"Nome": "Gabriel Jesus",
+	"NomeCompleto": "Gabriel Fernando de Jesus",
+	"Posição": "Atacante",
+	"Altura": "1,73",
+	"__metadata": {
+		"uri": "Jogadores('10')",
+		"type": "S1.Jogador"
+	},
+	"Nacionalidade": "Brasileiro",
+	"DataNasc": "/Date(860036400000)/"
+}, {
+	"IdJogador": "IdJogador 11",
+	"IdTime": "3",
+	"Nome": "Fernando Prass",
+	"NomeCompleto": "Fernando Büttenbender Prass",
+	"Posição": "Goleiro",
+	"Altura": "1,91",
+	"DataNasc": "/Date(268801200000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%201')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 12",
+	"IdTime": "3",
+	"Nome": "Zé Roberto",
+	"NomeCompleto": "José Roberto da Silva Júnior",
+	"Posição": "Lateral",
+	"Altura": "1,76",
+	"DataNasc": "/Date(142311600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%202')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 13",
+	"IdTime": "4",
+	"Nome": "Lucas Lima",
+	"NomeCompleto": "Lucas Rafael Araújo Lima",
+	"Posição": "Meia",
+	"Altura": "1,75",
+	"DataNasc": "/Date(647492400000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%203')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 14",
+	"IdTime": "4",
+	"Nome": "Renato",
+	"NomeCompleto": "Renato Dirnei Florêncio",
+	"Posição": "Volante",
+	"Altura": "1,77",
+	"DataNasc": "/Date(306212400000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%204')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 15",
+	"IdTime": "4",
+	"Nome": "Ricardo Oliveira",
+	"NomeCompleto": "Ricardo Oliveira",
+	"Posição": "Atacante",
+	"Altura": "1,83",
+	"DataNasc": "/Date(326430000000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%205')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 16",
+	"IdTime": "4",
+	"Nome": "Vitor Bueno",
+	"NomeCompleto": "Vitor Frezarin Bueno",
+	"Posição": "Meia",
+	"Altura": "1,85",
+	"DataNasc": "/Date(778734000000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%206')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 17",
+	"IdTime": "5",
+	"Nome": "Anderson",
+	"NomeCompleto": "Anderson Luís de Abreu Oliveira",
+	"Posição": "Meia",
+	"Altura": "1,76",
+	"DataNasc": "/Date(576903600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%207')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 18",
+	"IdTime": "5",
+	"Nome": "Alex",
+	"NomeCompleto": "Alex Raphael Meschini",
+	"Posição": "Meia",
+	"Altura": "1,75",
+	"DataNasc": "/Date(385873200000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%208')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 19",
+	"IdTime": "5",
+	"Nome": "Nico López",
+	"NomeCompleto": "Nicolás Federico López Alonso",
+	"Posição": "Atacante",
+	"Altura": "1,79",
+	"DataNasc": "/Date(433825200000)/",
+	"Nacionalidade": "Uruguaio",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%209')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 20",
+	"IdTime": "5",
+	"Nome": "Valdívia",
+	"NomeCompleto": "Wanderson Ferreira de Oliveira",
+	"Posição": "Meia",
+	"Altura": "1,74",
+	"DataNasc": "/Date(781239600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2010')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 21",
+	"IdTime": "6",
+	"Nome": "Luan",
+	"NomeCompleto": "Luan Guilherme de Jesus Vieira",
+	"Posição": "Atacante",
+	"Altura": "1,8",
+	"DataNasc": "/Date(733201200000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2011')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 22",
+	"IdTime": "6",
+	"Nome": "Douglas",
+	"NomeCompleto": "Douglas dos Santos",
+	"Posição": "Meia",
+	"Altura": "1,75",
+	"DataNasc": "/Date(382845600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2012')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 23",
+	"IdTime": "6",
+	"Nome": "Geromel",
+	"NomeCompleto": "Pedro Tonon Geromel",
+	"Posição": "Zagueiro",
+	"Altura": "1,9",
+	"DataNasc": "/Date(496119600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2013')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 24",
+	"IdTime": "6",
+	"Nome": "Marcelo Grohe",
+	"NomeCompleto": "Marcelo Grohe",
+	"Posição": "Goleiro",
+	"Altura": "1,88",
+	"DataNasc": "/Date(537501600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2014')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 25",
+	"IdTime": "7",
+	"Nome": "Diego",
+	"NomeCompleto": "Diego Ribas Cunha",
+	"Posição": "Meia",
+	"Altura": "1,75",
+	"DataNasc": "/Date(478407600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2015')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 26",
+	"IdTime": "7",
+	"Nome": "Paolo Guerrero",
+	"NomeCompleto": "José Paolo Guerrero Gonzales",
+	"Posição": "Atacante",
+	"Altura": "1,85",
+	"DataNasc": "/Date(441770400000)/",
+	"Nacionalidade": "Peruano",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2016')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 27",
+	"IdTime": "7",
+	"Nome": "Fernandinho",
+	"NomeCompleto": "Luiz Fernando Pereira da Silva",
+	"Posição": "Atacante",
+	"Altura": "1,71",
+	"DataNasc": "/Date(501732000000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2017')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 28",
+	"IdTime": "7",
+	"Nome": "Alex Muralha",
+	"NomeCompleto": "Alex Roberto Santana Rafael",
+	"Posição": "Goleiro",
+	"Altura": "1,86",
+	"DataNasc": "/Date(626666400000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2018')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 29",
+	"IdTime": "8",
+	"Nome": "Sassá",
+	"NomeCompleto": "Luiz Ricardo Alves",
+	"Posição": "Atacante",
+	"Altura": "1,74",
+	"DataNasc": "/Date(758253600000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2019')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 30",
+	"IdTime": "8",
+	"Nome": "Camilo",
+	"NomeCompleto": "Fernando Camilo Farias",
+	"Posição": "Meia",
+	"Altura": "1,74",
+	"DataNasc": "/Date(510721200000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2020')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 31",
+	"IdTime": "8",
+	"Nome": "Jerfferson",
+	"NomeCompleto": "Jefferson de Oliveira Galvão",
+	"Posição": "Goleiro",
+	"Altura": "1,88",
+	"DataNasc": "/Date(410320800000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2021')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 32",
+	"IdTime": "8",
+	"Nome": "Neílton",
+	"NomeCompleto": "Neílton Meira Mestzk",
+	"Posição": "Atacante",
+	"Altura": "1,66",
+	"DataNasc": "/Date(761450400000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2022')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 33",
+	"IdTime": "9",
+	"Nome": "Robinho",
+	"NomeCompleto": "Robson de Souza",
+	"Posição": "Atacante",
+	"Altura": "1,72",
+	"DataNasc": "/Date(443844000000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2023')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 34",
+	"IdTime": "9",
+	"Nome": "Lucas Pratto",
+	"NomeCompleto": "Lucas David Pratto",
+	"Posição": "Atacante",
+	"Altura": "1,87",
+	"DataNasc": "/Date(581396400000)/",
+	"Nacionalidade": "Argentino",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2024')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 35",
+	"IdTime": "9",
+	"Nome": "Fred",
+	"NomeCompleto": "Frederico Chaves Guedes",
+	"Posição": "Atacante",
+	"Altura": "1,85",
+	"DataNasc": "/Date(433998000000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2025')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 36",
+	"IdTime": "9",
+	"Nome": "Dátolo",
+	"NomeCompleto": "Jesús Alberto Dátolo",
+	"Posição": "Meia",
+	"Altura": "1,77",
+	"DataNasc": "/Date(453783600000)/",
+	"Nacionalidade": "Argentino",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2026')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 37",
+	"IdTime": "10",
+	"Nome": "Arrascaeta",
+	"NomeCompleto": "Giorgian Daniel De Arrascaeta Benedetti",
+	"Posição": "Meia",
+	"Altura": "1,72",
+	"DataNasc": "/Date(770439600000)/",
+	"Nacionalidade": "Uruguaio",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2027')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 38",
+	"IdTime": "10",
+	"Nome": "Rafael Sóbis",
+	"NomeCompleto": "Rafael Augusto Sóbis do Nascimento",
+	"Posição": "Atacante",
+	"Altura": "1,72",
+	"DataNasc": "/Date(487825200000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2028')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 39",
+	"IdTime": "10",
+	"Nome": "Ábila",
+	"NomeCompleto": "Ramón Darío Ábila",
+	"Posição": "Atacante",
+	"Altura": "1,75",
+	"DataNasc": "/Date(624337200000)/",
+	"Nacionalidade": "Argentino",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2029')",
+		"type": "S1.Jogador"
+	}
+}, {
+	"IdJogador": "IdJogador 40",
+	"IdTime": "10",
+	"Nome": "Fábio",
+	"NomeCompleto": "Fábio Deivson Lopes Maciel",
+	"Posição": "Goleiro",
+	"Altura": "1,88",
+	"DataNasc": "/Date(528433200000)/",
+	"Nacionalidade": "Brasileiro",
+	"__metadata": {
+		"uri": "Jogadores('IdJogador%2030')",
+		"type": "S1.Jogador"
+	}
+}]

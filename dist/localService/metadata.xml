@@ -1,0 +1,55 @@
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="S1">
+            <EntityType Name="Time">
+                <Key>
+                    <PropertyRef Name="Id"/>
+                </Key>
+                <Property Name="Id" Type="Edm.String" MaxLength="4" Nullable="false" sap:label="Id"></Property>
+                <Property Name="Logo" Type="Edm.String" Nullable="true" sap:label="Logo"></Property>
+                <Property Name="Nome" Type="Edm.String" Nullable="false" sap:label="Nome"></Property>
+                <Property Name="NomeCompleto" Type="Edm.String" Nullable="false" sap:label="Nome Completo"></Property>
+                <Property Name="AnoFundacao" Type="Edm.Double" MaxLength="4" Nullable="false" sap:label="Ano de Fundacao"></Property>
+                <Property Name="Estado" Type="Edm.String" Nullable="true" sap:label="Estado"></Property>
+                <NavigationProperty Name="ToJogadores" Relationship="S1.Time_Jogador" ToRole="To_Jogadores" FromRole="From_Time"></NavigationProperty>
+            </EntityType>
+            <EntityType Name="Jogador">
+                <Key>
+                    <PropertyRef Name="IdJogador"/>
+                </Key>
+                <Property Name="IdJogador" Type="Edm.String" MaxLength="4" Nullable="false" sap:label="Id do Jogador"></Property>
+                <Property Name="IdTime" Type="Edm.String" MaxLength="4" Nullable="false" sap:label="Id do Time"></Property>
+                <Property Name="Nome" Type="Edm.String" Nullable="false" sap:label="Nome"></Property>
+                <Property Name="NomeCompleto" Type="Edm.String" Nullable="false" sap:label="Nome Completo"></Property>
+                <Property Name="Posição" Type="Edm.String" Nullable="false" sap:label="Posição"></Property>
+                <Property Name="Altura" Type="Edm.Double" Nullable="false" sap:label="Altura"></Property>
+                <Property Name="DataNasc" Type="Edm.DateTime" Nullable="false"></Property>
+                <Property Name="Nacionalidade" Type="Edm.String" Nullable="false"></Property>
+            </EntityType>
+            <Association Name="Time_Jogador">
+                <End Type="S1.Time" Role="From_Time" Multiplicity="1"></End>
+                <End Type="S1.Jogador" Role="To_Jogadores" Multiplicity="*"></End>
+                <ReferentialConstraint>
+                	<Principal Role="From_Time">
+                		<PropertyRef Name="Id"/>
+                	</Principal>
+                	<Dependent Role="To_Jogadores">
+                		<PropertyRef Name="IdTime"/>
+                	</Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="EC1" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Times" EntityType="S1.Time"></EntitySet>
+                <EntitySet Name="Jogadores" EntityType="S1.Jogador"></EntitySet>
+                <AssociationSet Name="Times_Jogadores" Association="S1.Time_Jogador">
+                    <End Role="From_Time" EntitySet="Times" ></End>
+                    <End Role="To_Jogadores"  EntitySet="Jogadores"></End>
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

@@ -1,0 +1,125 @@
+<mvc:View 
+	controllerName="com.projetos.times.controller.CreateEntity" 
+	xmlns:core="sap.ui.core" 
+	xmlns:f="sap.ui.layout.form"
+	xmlns:footerbar="sap.ushell.ui.footerbar" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:semantic="sap.m.semantic"
+	xmlns:smart="sap.ui.comp.smartfield" 
+	xmlns="sap.m"
+	>
+	<semantic:DetailPage 
+		id="page" 
+		navButtonPress="onNavBack" 
+		title="{viewModel>/viewTitle}" 
+		busy="{viewModel>/busy}"
+		>
+		<semantic:content>
+			<f:SimpleForm 
+				class="editableForm" 
+				columnsL="1" 
+				columnsM="1" 
+				editable="true" 
+				emptySpanL="4" 
+				emptySpanM="4"
+				id="newEntitySimpleForm"
+				labelSpanL="3" 
+				labelSpanM="3"
+				layout="ResponsiveGridLayout" 
+				maxContainerCols="2"
+				minWidth="1024"
+				title="{= ${viewModel>/mode} === 'edit'? 'Editar Time': 'Novo Time'}"
+				>
+				<f:content>
+					<Label 
+						text="Id"
+						required="true"
+						/>
+					<Input 
+						name="Id"
+						id="Id_id" 
+						valueLiveUpdate="true" 
+						liveChange="_validateSaveEnablement"
+						enabled="{= ${viewModel>/mode} === 'edit'? false: true}" 
+						visible="true"
+						value="{ path: 'Id', type: 'sap.ui.model.odata.type.String' , constraints:{ nullable:false } }"
+						/>
+					<Label 
+						text="Logo" 
+						/>
+					<Input 
+						name="Logo"
+						id="Logo_id" valueLiveUpdate="true"
+						liveChange="_validateSaveEnablement"
+						enabled="true" 
+						visible="true"
+						value="{ path: 'Logo', type: 'sap.ui.model.odata.type.String' , constraints:{ nullable:false } }"
+						/>
+					<Label 
+						text="Nome" 
+						required="true"
+						/>
+					<Input 
+						name="Nome" 
+						id="Nome_id" valueLiveUpdate="true" 
+						liveChange="_validateSaveEnablement" 
+						enabled="true" 
+						visible="true"
+						value="{ path: 'Nome', type: 'sap.ui.model.odata.type.String' , constraints:{ nullable:false } }"
+						/>
+					<Label 
+						text="Nome Completo"
+						required="true"
+						/>
+					<Input 
+						name="NomeCompleto"
+						id="NomeCompleto_id" 
+						valueLiveUpdate="true" 
+						liveChange="_validateSaveEnablement" 
+						enabled="true" 
+						visible="true"
+						value="{ path: 'NomeCompleto', type: 'sap.ui.model.odata.type.String' , constraints:{ nullable:false } }"
+						/>
+					<Label 
+						text="AnoFundacao" 
+						required="true"
+						/>
+					<Input 
+						name="AnoFundacao" 
+						id="AnoFundacao_id"
+						type="Number"
+						valueLiveUpdate="true" 
+						liveChange="_validateSaveEnablement" 
+						enabled="true" visible="true"
+						value="{ path: 'AnoFundacao', type: 'sap.ui.model.odata.type.String' , constraints:{ nullable:false } }"
+						/>
+					<Label 
+						text="Estado" 
+						/>
+					<Input 
+						name="Estado"
+						id="Estado_id" valueLiveUpdate="true" 
+						liveChange="_validateSaveEnablement" 
+						enabled="true"
+						visible="true"
+						value="{ path: 'Estado', type: 'sap.ui.model.odata.type.String' , constraints:{ nullable:false } }"
+						/>
+				</f:content>
+			</f:SimpleForm>
+		</semantic:content>
+		<semantic:saveAction>
+			<semantic:SaveAction 
+				id="save" 
+				enabled="{viewModel>/enableCreate}" 
+				press="onSave"
+				/>
+		</semantic:saveAction>
+		<semantic:cancelAction>
+			<semantic:CancelAction 
+				id="cancel" 
+				press="onCancel"
+				/>
+		</semantic:cancelAction>
+	</semantic:DetailPage>
+</mvc:View>

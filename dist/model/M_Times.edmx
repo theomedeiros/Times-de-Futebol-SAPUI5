@@ -1,0 +1,41 @@
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="S1">
+			<EntityType Name="Time">
+				<Key>
+					<PropertyRef Name="Id"/>
+				</Key>
+				<Property Name="Id" Type="Edm.Double" Nullable="false" sap:label="Id"></Property>
+				<Property Name="Logo" Type="Edm.String" Nullable="false" sap:label="Logo"></Property>
+				<Property Name="Nome" Type="Edm.String" Nullable="false" sap:label="Nome"></Property>
+				<Property Name="NomeCompleto" Type="Edm.String" Nullable="false" sap:label="Nome"></Property>
+				<Property Name="AnoFundacao" Type="Edm.Int16" Nullable="false" sap:label="AnoFundacao"></Property>
+				<Property Name="Estado" Type="Edm.String" Nullable="false" sap:label="Estado"></Property>
+				<NavigationProperty Name="ToJogadores" Relationship="S1.Time_Jogador" ToRole="IdTime" FromRole="Id"></NavigationProperty>
+			</EntityType>
+			<EntityType Name="Jogador">
+				<Key>
+					<PropertyRef Name="IdJogador"/>
+				</Key>
+				<Property Name="IdJogador" Type="Edm.Double" Nullable="false" sap:label="IdJogador"></Property>
+				<Property Name="IdTime" Type="Edm.Double" Nullable="false" sap:label="IdTime"></Property>
+				<Property Name="Nome" Type="Edm.String" Nullable="false" sap:label="Nome"></Property>
+				<Property Name="NomeCompleto" Type="Edm.String" Nullable="false" sap:label="Nome"></Property>
+				<Property Name="Posição" Type="Edm.String" Nullable="false" sap:label="Posição"></Property>
+				<Property Name="Altura" Type="Edm.Double" Nullable="false" sap:label="Altura"></Property>
+			</EntityType>
+			<Association Name="Time_Jogador">
+				<End Type="S1.Time" Role="Id" Multiplicity="1"></End>
+				<End Type="S1.Jogador" Role="IdTime" Multiplicity="*"></End>
+			</Association>
+			<EntityContainer Name="EC1" m:IsDefaultEntityContainer="true">
+				<EntitySet Name="Times" EntityType="S1.Time"></EntitySet>
+				<EntitySet Name="Jogadores" EntityType="S1.Jogador"></EntitySet>
+				<AssociationSet Name="Times_Jogadores" Association="S1.Time_Jogador">
+					<End Role="Id" EntitySet="Times" ></End>
+					<End Role="IdTime"  EntitySet="Jogadores"></End>
+				</AssociationSet>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
